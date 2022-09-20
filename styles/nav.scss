@@ -1,0 +1,67 @@
+nav{
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(121, 108, 93);
+  z-index: 1;
+}
+.navbar-brand{
+  font-size: 30px;
+  margin: 2em;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.btn-dark{
+  
+  border: 4px solid rgb(136, 127, 114);
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+// Side Nav
+
+
+.side-nav{
+  width: 10vw;
+  height: 90vh;
+background-color: rgb(121, 108, 93);
+}
+
+.side-nav-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(216, 199, 177);
+  font-size: 25px;
+  align-self: center;
+  height: 75px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  padding: 15px;
+}
+
+ul a{
+  display: block;
+  padding: 30px;
+  height: 100%;
+  border-bottom: 1px solid rbg(0,0,0,0.05);
+  border-top: 1px solid rgb(225,225,225,0.05);
+  transition: 0.3s;
+  text-align: center;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+ul li:hover a{
+  padding-left: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 168, 143);
+}
+
+ul{
+  list-style-type: none;
+}
